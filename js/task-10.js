@@ -30,6 +30,7 @@ function handleClickCreateBtn() {
 }
 function handleClickDestroyBtn() {
   boxesEl.innerHTML = "";
+  // метод 'boxesEl.childNodes.remove()' нажаль не працює, в чому помилка?
 }
 
 createBtnEl.addEventListener("click", handleClickCreateBtn);
